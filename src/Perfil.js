@@ -1,12 +1,6 @@
 import React, { Component } from "react";
 import axios from "axios";
 import { Modal, ModalBody, ModalFooter, ModalHeader } from 'reactstrap';
-import md5 from "md5";
-
-import { Link } from "react-router-dom";
-
-
-import { Register,H1,Img,H3,Primer,Segundo,Name,Correo,Contra,Botn } from './styled/RegistroStyled';
 
 
 axios.defaults.headers.post['Content-Type'] ='application/json;charset=utf-8';

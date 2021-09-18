@@ -8,16 +8,11 @@ import Cards from './Cards'
 import { AboutS, Movie, H1 } from '../styled/AboutStyled'
 
 
-const API_URL = 'https://api.themoviedb.org/3/discover/movie?sort_by=popularity.desc&api_key=3fd2be6f0c70a2a598f084ddfb75487c&page=2'
-const IMG_PATH = `https://image.tmdb.org/t/p/w1280`
-const SEARCH_URL = 'http://api.themoviedb.org/3/search/movie?api_key=3fd2be6f0c70a2a598f084ddfb75487c&query=';
-
-
 
 function About() {
     const url = 'https://api.themoviedb.org/3/discover/movie?sort_by=popularity.desc&api_key=3fd2be6f0c70a2a598f084ddfb75487c&page=2';
     const SEARCH_URL = 'http://api.themoviedb.org/3/search/movie?api_key=3fd2be6f0c70a2a598f084ddfb75487c&query=';
-    const [movie, setMovie] = useState([])
+    // const [movie, setMovie] = useState([])
     const [fin, setFin] = useState([])
     const [search, setSearch] = useState('')
     // console.log(setMenosVal,setTod,setMoreVal)

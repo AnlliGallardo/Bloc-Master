@@ -66,7 +66,8 @@ export default class Registro extends Component {
     }
 
     RegistroUsuario = async () => {
-        let perfilUsuario = await axios.post(baseUrl, {
+        // let perfil = 
+        await axios.post(baseUrl, {
             id: uuid,
             primer_apellido: this.state.form.primer_apellido,
             segundo_apellido: this.state.form.segundo_apellido,
@@ -181,7 +182,7 @@ export default class Registro extends Component {
                             id="password2"
                         />
                         <br />
-                        {this.state.tipoModal=='insertar'}
+                        {this.state.tipoModal==='insertar'}
                         <Link
                             type="submit"
                             className="btn btn-primary btn-block mb-1"

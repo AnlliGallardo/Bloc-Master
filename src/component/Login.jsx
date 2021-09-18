@@ -74,7 +74,8 @@ export default class Login extends Component {
         const { email , password} = this.state;
         this.setState({ sending: true});
         try {
-            const res = await baseUrl({username: email, password});
+            // const res = 
+            await baseUrl({username: email, password});
         } catch (error){
             this.setState({ error: error.message });
         } finally {

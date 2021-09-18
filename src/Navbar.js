@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { Link, NavLink } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 // import { SearchIcon } from '@material-ui/icons/SearchIcon';
 
 

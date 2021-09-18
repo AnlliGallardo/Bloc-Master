@@ -2,14 +2,14 @@ import React, { Component } from 'react';
 import {
     BrowserRouter as Router,
     Switch,
-    Route,
-    Link
+    Route
+    // Link
 } from "react-router-dom";
 
 
 
 import Navbar from '../Navbar';
-import Perfil from '../Perfil';
+// import Perfil from '../Perfil';
 // import Search from '../component/Search';
 import Registro from '../component/Registro';
 import Login from '../component/Login';
