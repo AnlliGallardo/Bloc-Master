@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 import swal from 'sweetalert';
 
 
-import { Register,H1,Img,H3,Primer,Segundo,Name,Correo,Contra,Botn } from '../styled/RegistroStyled'
+import { Register,H1,Img,H3,Primer,Segundo,Name,Correo,Contra } from '../styled/RegistroStyled'
 
 
 axios.defaults.headers.post['Content-Type'] ='application/json;charset=utf-8';
